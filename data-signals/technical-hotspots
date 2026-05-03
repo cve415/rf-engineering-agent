@@ -1,0 +1,33 @@
+1. OVERVIEW
+In the RF and mmWave ecosystem, the risk is in the "Tape-out." This document tracks technical hotspots where simulation accuracy meets real-world physics. We prioritize talent capable of navigating the complex EDA (Electronic Design Automation) toolchains required to bring high-frequency designs from a Smith Chart to a production-ready PCB or IC.
+
+2. TECHNICAL FOCUS AREAS
+2.1 Electromagnetic (EM) Simulation & Modeling
+Full-Wave Analysis: Verification of expertise in 3D EM solvers (Ansys HFSS, CST Microwave Studio) for antenna-in-package (AiP) and wave propagation.
+
+Planar Simulation: Identifying power-users of Keysight ADS or Cadence AWR Microwave Office for multi-layer PCB and MMIC design.
+
+Model Correlation: Identifying talent that can correlate simulated S-parameters with measured VNA (Vector Network Analyzer) data.
+
+2.2 RFIC/MMIC Design & Tape-Out
+Foundry Enablement: Recognition of expertise in specific Process Design Kits (PDKs) for TSMC, GlobalFoundries, or Tower Semi (GaN, SiGe, CMOS).
+
+Physical Verification: Identifying proficiency in Cadence Virtuoso for layout, LVS (Layout vs. Schematic), and DRC (Design Rule Check) to ensure "First-Pass" success.
+
+Thermal & Stress Analysis: Expertise in co-simulation tools (e.g., Ansys Icepak) to manage heat dissipation in high-power SSPA designs.
+
+2.3 Automated Test & Measurement (ATE)
+Instrument Control: Identifying engineers who build custom test benches using Python (PyVISA) or LabVIEW to automate high-throughput RF testing.
+
+Compliance & Standards: Expertise in verifying designs against 3GPP (5G NR), IEEE 802.11, or MIL-STD requirements.
+
+Digital/Analog Convergence: Skill in bridging the gap between digital DSP/FPGA logic and the analog RF front-end.
+
+3. ECOSYSTEM IMPACT
+We track contributions and thought leadership across major industry bodies and standards:
+
+IEEE MTT-S (Microwave Theory & Technology): Analyzing paper submissions and technical committee involvement.
+
+Open-Source RF: Tracking contributions to GNU Radio and Pothos for Software Defined Radio (SDR) development.
+
+Standards Working Groups: Identifying engineers involved in O-RAN Alliance or 3GPP to influence future spectrum allocations.
