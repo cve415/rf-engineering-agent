@@ -1,7 +1,7 @@
 # AGENT CAPABILITIES & SKILLS: RF Engineering Talent Intelligence
 **Version:** 1.0  
 **Owner:** CVE Sourcing (cvesourcing.com)  
-**Target Sectors:** Satellite, Space, 5G mmWave, & Defense (EW)
+**Target Sectors:** Satellite, Space, 5G mmWave, & Defense 
 
 ## 1. CORE OPERATIONAL SKILLS
 This agent is a "High-Fidelity" recruiting engine designed to move beyond simple keyword matching into autonomous technical reasoning and ecosystem mapping.
