@@ -22,3 +22,21 @@
     "market_signal_triggers": "Contract awards, FCC filings, or frequency allocation shifts"
   }
 }
+# RF Technical Glossary & Recruiter Translation
+
+### Hardware Components
+* **SSPA (Solid-State Power Amplifier):** The "Muscle." Boosts signals before transmission. Must survive high heat and space radiation.
+* **LNA (Low Noise Amplifier):** The "Ear." Amplifies tiny incoming signals. **Noise Figure (NF)** is the defining spec here—lower is better.
+* **PLL (Phase-Locked Loop):** The "Clock." Keeps frequencies stable; drift in space results in lost signal.
+* **Up/Down Converter:** The "Translator." Shifts frequencies between transmit/receive bands and intermediate frequencies (IF).
+
+### Critical Metrics & Specs
+* **Noise Figure (NF):** Total noise added by hardware. Critical for LNA performance.
+* **IIP3 / IP3:** Linearity metric. High IIP3 means the component handles strong signals without creating "spurs" (fake frequencies).
+* **Gain Flatness:** Consistency of gain across full bandwidth. Essential for wideband satellite channels.
+* **Rad-Hard:** Radiation-hardened. Components rated to survive cosmic radiation in GEO orbit.
+
+### Simulation & Lifecycle
+* **ADS (Keysight):** Industry-standard circuit simulator. High proficiency indicates a serious RF designer.
+* **HFSS (Ansys):** Advanced 3D EM simulator for antennas and complex PCB structures.
+* **Qualification Testing:** The formal campaign (vibe, thermal vacuum, radiation) to prove hardware survives space.
