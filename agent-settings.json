@@ -3,3 +3,22 @@
   "harness_path": "../cve-core-harness",
   "status": "Refactoring"
 }
+
+{
+  "agent_name": "RF & Analog Engineering Agent",
+  "version": "1.1",
+  "status": "Active",
+  "base_harness_path": "../cve-core-harness",
+  "context_variables": {
+    "target_vertical": "Aerospace, Defense, and Telecommunications",
+    "domain_community": "IEEE MTT-S and open-source SDR communities",
+    "upstream_vendors": "Foundries (GaN/GaAs), Test & Measurement (Keysight/Rohde & Schwarz), and EDA (ADS/CST)",
+    "downstream_providers": "Prime Contractors, Satellite Operators, and 6G Infrastructure OEMs",
+    "contract_type": "Government Program (Cost-Plus) and Commercial Design-Win",
+    "competitor_niches": "Phased Array Design, MmWave, and Wide-Bandgap Semiconductors",
+    "compliance_standards": "MIL-STD-810, DO-178C, and Space-Qualified (Rad-Hard)",
+    "priority_market_segments": "LEO Satellites, Electronic Warfare, and 5G/6G Backhaul",
+    "high_stakes_model": "long-horizon defense procurement and prototyping",
+    "market_signal_triggers": "Contract awards, FCC filings, or frequency allocation shifts"
+  }
+}
