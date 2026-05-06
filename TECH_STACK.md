@@ -40,7 +40,7 @@
 We are actively seeking collaborators to refine the "Technical Distance" logic for the RF sectors.
 
 
-### 🛠️ Silicon & RF Engineers
+### 🛠️ RF Engineers
 * **Objective:** Signal Identification.
 * **Question:** What specific GitHub commits or patent claims prove "Senior-level" depth to you? Help us refine the agent's "Red Flag" detection.
 
