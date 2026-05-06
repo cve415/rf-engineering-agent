@@ -1,6 +1,6 @@
 # Tech Stack Summary: Agentic Recruitment Harness
 
-**Project:** RISC-V & RF Talent Intelligence Agent  
+**Project:** RF Talent Intelligence Agent  
 **Architecture:** Zero-Build Tactical Frontend + Agentic Reasoning Backend  
 **Status:** Phase 2 (Methodology Preview)
 
@@ -37,11 +37,8 @@
 
 ## Contributing & Collaboration
 
-We are actively seeking collaborators to refine the "Technical Distance" logic for the RISC-V and RF sectors.
+We are actively seeking collaborators to refine the "Technical Distance" logic for the RF sectors.
 
-### 🎯 RISC-V Hiring Managers
-* **Objective:** Calibration.
-* **Question:** Does our `/skills/github-vetter` rubric align with your actual technical interview pass/fail criteria?
 
 ### 🛠️ Silicon & RF Engineers
 * **Objective:** Signal Identification.
