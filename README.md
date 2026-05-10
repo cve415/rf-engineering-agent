@@ -8,9 +8,8 @@ This agent is a "High-Fidelity" recruiting engine designed to move beyond simple
 
 ### 1.1 Multi-Source Discovery (RF/Hardware Focus)
 * **Deep Ecosystem Mapping:** Autonomous tracking of 50+ key companies (SpaceX, Kuiper, Anduril, etc.) to identify "Talent Clumps" and migration patterns.
-* **IEEE Xplore & ResearchGate Crawling:** Ability to analyze publication history, citation counts, and specific research focus (e.g., GaN HEMT, Beamforming algorithms).
+* **Community Mapping: Discovers speakers and active participants from MTT-S, APS, SmallSat, and LLVM Dev Meetings to identify community leaders.
 * **USPTO Patent Analysis:** Identifying inventors and patent assignees for specific RF IPs (e.g., Q/V-band, Phased Array tiles).
-* **Conference Scraping:** Extracting speaker and attendee data from **MTT-S, APS, SmallSat, and LLVM Dev Meetings** to identify community leaders.
 
 ### 1.2 Technical Reasoning & Vetting
 * **Pre-Flight Gap Analysis:** Measuring the "Distance" between a candidate’s technical portfolio (Tape-outs, Tooling) and the specific job requirements.
