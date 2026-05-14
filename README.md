@@ -1,6 +1,5 @@
-# AGENT CAPABILITIES & SKILLS: RF Engineering Talent Intelligence
-**Version:** 1.0  
-**Owner:** CVE Sourcing (cvesourcing.com)  
+# AGENT CAPABILITIES & SKILLS: RF Engineering Talent Intelligence 
+**Owner:** Christopher Velasco,CVE Sourcing  
 **Target Sectors:** Satellite, Space, 5G mmWave, & Defense 
 
 ## 1. CORE OPERATIONAL SKILLS
