@@ -1,0 +1,19 @@
+# CVE Core Harness
+
+The control plane for deterministic, agentic technical vetting.
+
+## Context
+
+This repository provides global governance, safety guardrails, and commercial evaluation logic for a suite of recruiting agents. It is designed to be injected into domain-specific agents (for example, RF and RISC-V) so grading and outreach stay consistent and ethical.
+
+## Key structures
+
+- **`/logic`** — Master evaluation heuristics (commercial and technical).
+- **`/config`** — System-wide behavior and agent constitutions.
+- **`/UI`** — Unified CSS and HTML for tactical dashboards.
+
+## Principles
+
+- **Deterministic grading** — Every output must include a Technical Thesis.
+- **HITL** — Human-in-the-loop is mandatory for all outreach.
+- **Modular injection** — Specialist agents pull from this core for shared rules.
