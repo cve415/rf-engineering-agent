@@ -1,53 +1,64 @@
-# AGENT CAPABILITIES & SKILLS: RF Engineering Talent Intelligence 
+# RF Engineering Talent Intelligence — Agent Capabilities
+
 **Owner:** Christopher Velasco, CVE Sourcing  
-**Target Sectors:** Satellite, Space, 5G mmWave, & Defense 
+**Target sectors:** Satellite, Space, 5G mmWave, Defense
 
-## 1. CORE OPERATIONAL SKILLS
-This agent is a "High-Fidelity" recruiting engine designed to move beyond simple keyword matching into autonomous technical reasoning and ecosystem mapping.
-
-### 1.1 Multi-Source Discovery (RF/Hardware Focus)
-* **Deep Ecosystem Mapping:** Autonomous tracking of 50+ key companies (SpaceX, Kuiper, Anduril, etc.) to identify "Talent Clumps" and migration patterns.
-* **Community Mapping: Discovers speakers and active participants from MTT-S, APS, SmallSat, and LLVM Dev Meetings to identify community leaders.
-* **USPTO Patent Analysis:** Identifying inventors and patent assignees for specific RF IPs (e.g., Q/V-band, Phased Array tiles).
-
-### 1.2 Technical Reasoning & Vetting
-* **Pre-Flight Gap Analysis:** Measuring the "Distance" between a candidate’s technical portfolio (Tape-outs, Tooling) and the specific job requirements.
-* **Tooling Fluency Verification:** Evaluating a candidate's mastery of **Ansys HFSS, Keysight ADS, Cadence Virtuoso, and CST Microwave Studio**.
-* **Technical Screening Generation:** Creating role-specific "Quiz" questions (e.g., "Trade-offs in analog vs. digital beamforming for 16-element arrays") based on the candidate's actual engineering history.
-
-### 1.3 GTM & Commercial Intelligence
-* **Design Win Tracking:** Monitoring semiconductor IP licensing wins to identify high-performing Sales and BD leaders in the RFIC space.
-* **Commercial Signal Detection:** Analyzing company health indicators (funding rounds, executive churn, and partnership announcements) to determine "poachability."
+This agent is a high-fidelity recruiting engine: it moves beyond keyword matching into technical reasoning and ecosystem mapping for RF and hardware roles.
 
 ---
 
-## 2. COMMUNICATION SKILLS: THE "1:1 THESIS"
-The agent does not send "spam." It generates a **Technical Peer-Review** style outreach for every high-value lead.
+## 1. Core operational skills
 
-* **Evidence-Based Outreach:** References specific technical contributions, such as IEEE papers or 28 GHz antenna design patents, to create a "Peer-to-Peer" connection.
-* **Narrative Continuity:** Connecting a candidate’s career arc (e.g., "From Intel mmWave to SpaceX Starlink") to the specific mission of the hiring company.
-* **Value-First Engagement:** Offering market intelligence or ecosystem data to the candidate, ensuring the first touchpoint is high-value even if they are not currently looking.
+### 1.1 Multi-source discovery (RF / hardware)
 
----
+- **Deep ecosystem mapping:** Autonomous tracking of 50+ key companies (SpaceX, Kuiper, Anduril, etc.) to identify talent clusters and migration patterns.
+- **Community mapping:** Surfaces speakers and active participants from MTT-S, APS, SmallSat, and LLVM Dev Meetings to spot community leaders.
+- **USPTO patent analysis:** Identifies inventors and assignees for specific RF IP (e.g. Q/V-band, phased-array tiles).
 
-## 3. AUTONOMY LIMITS (Safety Guardrails)
-To protect domain health and reputation, the agent operates under these hard limits:
-* **Daily Outreach Cap:** Max 35 high-fidelity emails per 24-hour cycle to ensure quality over quantity.
-* **Human-in-the-Loop:** All generated "Theses" must be approved by the Founder before the `outreach.js` module executes the send.
-* **Platform Rate Limiting:** Strict adherence to LinkedIn and search engine limits (e.g., Max 10 profile views per hour) to maintain account safety.
+### 1.2 Technical reasoning and vetting
 
----
+- **Pre-flight gap analysis:** Measures how a candidate’s portfolio (tape-outs, tooling) aligns with the role.
+- **Tooling fluency verification:** Evaluates familiarity with **Ansys HFSS**, **Keysight ADS**, **Cadence Virtuoso**, and **CST Microwave Studio**.
+- **Technical screening generation:** Role-specific questions (e.g. trade-offs in analog vs. digital beamforming for 16-element arrays) grounded in the candidate’s history.
 
-## 4. FUTURE SKILLS (Roadmap)
-- [ ] **ATS Sync:** Direct integration with Greenhouse/Lever for automated candidate stage movement.
-- [ ] **Comp-Benchmarking:** Real-time compensation velocity tracking for specialized RF and RISC-V roles.
-- [ ] **SDR/GitHub Analysis:** Automated evaluation of Software Defined Radio (SDR) implementations and FPGA-based signal processing code.
+### 1.3 GTM and commercial intelligence
+
+- **Design win tracking:** Monitors semiconductor IP licensing wins to surface strong sales and BD leaders in RFIC.
+- **Commercial signal detection:** Uses funding, executive churn, and partnerships to assess timing and fit.
 
 ---
 
-## 5. REPOSITORY QUICK START
+## 2. Communication: the 1:1 thesis
+
+The agent avoids generic outreach. Each high-value lead gets a **technical peer-review** style message.
+
+- **Evidence-based outreach:** Cites concrete contributions (IEEE papers, patents, designs) for a peer-to-peer tone.
+- **Narrative continuity:** Links career arcs (e.g. Intel mmWave → SpaceX Starlink) to the hiring company’s mission.
+- **Value-first engagement:** Leads with market or ecosystem insight so the first touch is useful even if the person is not actively looking.
+
+---
+
+## 3. Autonomy limits (safety guardrails)
+
+- **Daily outreach cap:** Up to 35 high-fidelity emails per 24 hours (quality over volume).
+- **Human in the loop:** Generated theses are approved by the founder before the `outreach.js` send path runs.
+- **Platform rate limits:** Respects LinkedIn and search limits (e.g. capped profile views per hour) to protect accounts.
+
+---
+
+## 4. Future skills (roadmap)
+
+- [ ] **ATS sync:** Greenhouse / Lever integration for automated stage updates.
+- [ ] **Comp benchmarking:** Compensation velocity for specialized RF and RISC-V roles.
+- [ ] **SDR / GitHub analysis:** Review of SDR implementations and FPGA signal-processing code.
+
+---
+
+## 5. Repository quick start
+
 ```bash
-git clone [https://github.com/cve415/rf-engineering-agent.git](https://github.com/cve415/rf-engineering-agent.git)
+git clone https://github.com/cve415/rf-engineering-agent.git
 cd rf-engineering-agent
-# Serve the interactive ecosystem map locally
+# Interactive ecosystem map — open http://localhost:8000 in a browser
 python -m http.server 8000
+```
