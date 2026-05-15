@@ -1,64 +1,75 @@
-# RF Engineering Talent Intelligence — Agent Capabilities
+# RF Engineering Recruiting Agent
 
-**Owner:** Christopher Velasco, CVE Sourcing  
-**Target sectors:** Satellite, Space, 5G mmWave, Defense
+**RF & mixed-signal talent intelligence** — architected by Christopher Velasco.
 
-This agent is a high-fidelity recruiting engine: it moves beyond keyword matching into technical reasoning and ecosystem mapping for RF and hardware roles.
-
----
-
-## 1. Core operational skills
-
-### 1.1 Multi-source discovery (RF / hardware)
-
-- **Deep ecosystem mapping:** Autonomous tracking of 50+ key companies (SpaceX, Kuiper, Anduril, etc.) to identify talent clusters and migration patterns.
-- **Community mapping:** Surfaces speakers and active participants from MTT-S, APS, SmallSat, and LLVM Dev Meetings to spot community leaders.
-- **USPTO patent analysis:** Identifies inventors and assignees for specific RF IP (e.g. Q/V-band, phased-array tiles).
-
-### 1.2 Technical reasoning and vetting
-
-- **Pre-flight gap analysis:** Measures how a candidate’s portfolio (tape-outs, tooling) aligns with the role.
-- **Tooling fluency verification:** Evaluates familiarity with **Ansys HFSS**, **Keysight ADS**, **Cadence Virtuoso**, and **CST Microwave Studio**.
-- **Technical screening generation:** Role-specific questions (e.g. trade-offs in analog vs. digital beamforming for 16-element arrays) grounded in the candidate’s history.
-
-### 1.3 GTM and commercial intelligence
-
-- **Design win tracking:** Monitors semiconductor IP licensing wins to surface strong sales and BD leaders in RFIC.
-- **Commercial signal detection:** Uses funding, executive churn, and partnerships to assess timing and fit.
+> **Signal over noise** — In 2026, top RF and hardware talent is buried in generic recruiter spam. This agent cuts through that by doing deep technical work: mapping ecosystems (satellite, 5G mmWave, defense), cross-checking portfolios (simulation stacks, tape-outs, patents), and producing one-to-one **outreach theses** that read like peer review, not blast mail.
 
 ---
 
-## 2. Communication: the 1:1 thesis
+## Dual-track intelligence
 
-The agent avoids generic outreach. Each high-value lead gets a **technical peer-review** style message.
+The agent uses dual-track logic to connect hands-on RF engineering with commercial motion:
 
-- **Evidence-based outreach:** Cites concrete contributions (IEEE papers, patents, designs) for a peer-to-peer tone.
-- **Narrative continuity:** Links career arcs (e.g. Intel mmWave → SpaceX Starlink) to the hiring company’s mission.
-- **Value-first engagement:** Leads with market or ecosystem insight so the first touch is useful even if the person is not actively looking.
-
----
-
-## 3. Autonomy limits (safety guardrails)
-
-- **Daily outreach cap:** Up to 35 high-fidelity emails per 24 hours (quality over volume).
-- **Human in the loop:** Generated theses are approved by the founder before the `outreach.js` send path runs.
-- **Platform rate limits:** Respects LinkedIn and search limits (e.g. capped profile views per hour) to protect accounts.
+| Track | Focus |
+|--------|--------|
+| **Engineering deep-scan** | HFSS / ADS / Virtuoso / CST fluency, phased-array and beamforming trade-offs, USPTO and IEEE signals, tooling-aligned screening questions |
+| **GTM & strategic growth** | Design-win and IP licensing patterns, funding and partnership timing, BD and sales leaders tied to RFIC wins |
 
 ---
 
-## 4. Future skills (roadmap)
+## System architecture
 
-- [ ] **ATS sync:** Greenhouse / Lever integration for automated stage updates.
-- [ ] **Comp benchmarking:** Compensation velocity for specialized RF and RISC-V roles.
-- [ ] **SDR / GitHub analysis:** Review of SDR implementations and FPGA signal-processing code.
+This repo is a specialized **worker node** under the CVE Core Harness.
+
+```text
+rf-engineering-agent/
+├── AGENTS.md              # Manual of arms for AI operatives
+├── agent-settings.json    # Agent runtime configuration
+├── data-signals/          # Target companies, hotspots, education signals, vetting rubric
+├── docs/                  # Supplementary reference material
+└── TECH_STACK.md          # Stack and integration notes
+```
 
 ---
 
-## 5. Repository quick start
+## Our approach: agentic augmentation
+
+We use **agentic augmentation**, not replacement. The stack handles high-volume discovery and first-pass technical framing so the human lead can own relationships, negotiation, and closing.
+
+| AI agent (high-volume discovery) | Human lead (high-stakes relationship) |
+|----------------------------------|----------------------------------------|
+| Ecosystem mapping (50+ key orgs, conference and community signals) | Empathy and fit (motivations, culture, relocation, comp nuance) |
+| Portfolio and tooling vetting (pre-flight gap analysis vs. the role) | Final outreach approval and send timing |
+| Commercial timing (churn, funding, design-win intel) | Strategic partnerships and long-term trust with engineering leaders |
+
+---
+
+## Human-in-the-loop (HITL)
+
+The CVE Core Harness enforces a strict HITL protocol:
+
+1. **Validation** — AI-generated technical theses are reviewed by the lead before any send path runs (quality over blast volume; caps on daily outreach).
+2. **Ethics guardrails** — No autonomous outreach without a human-verified diversity and compliance check; platform rate limits respected to protect accounts.
+3. **Correction loop** — Human feedback on vetting accuracy feeds back into `data-signals/` (including the RF vetting rubric) to refine domain behavior.
+
+---
+
+## Quick start
 
 ```bash
+# 1. Clone this repo
 git clone https://github.com/cve415/rf-engineering-agent.git
 cd rf-engineering-agent
-# Interactive ecosystem map — open http://localhost:8000 in a browser
-python -m http.server 8000
+
+# 2. Configure (ensure Core Harness is installed)
+cp .env.example .env
+
+# 3. Launch tactical dashboard preview
+python3 -m http.server 8000
 ```
+
+---
+
+## Author
+
+**Christopher Velasco** — agentic architecture and technical talent engineering.
