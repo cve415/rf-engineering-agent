@@ -1,19 +1,17 @@
-# CVE Core Harness
+# RF Engineering Recruiting Agent
 
-The control plane for deterministic, agentic technical vetting.
+Specialist worker node for vetting RF and mixed-signal hardware talent.
 
 ## Context
 
-This repository provides global governance, safety guardrails, and commercial evaluation logic for a suite of recruiting agents. It is designed to be injected into domain-specific agents (for example, RF and RISC-V) so grading and outreach stay consistent and ethical.
+Operates under the CVE Core Harness. Focuses on active RF electronics (SSPAs, LNAs, PLLs) and the hardware lifecycle from simulation (ADS, HFSS) through bench work.
 
-## Key structures
+## Specialist logic
 
-- **`/logic`** — Master evaluation heuristics (commercial and technical).
-- **`/config`** — System-wide behavior and agent constitutions.
-- **`/UI`** — Unified CSS and HTML for tactical dashboards.
+- **`/instructions`** — RF-specific grading rubrics and Technical Architect personas.
+- **`/data-signals`** — Benchmarks for silicon hubs and RF targeting maps.
 
-## Principles
+## Technical focus
 
-- **Deterministic grading** — Every output must include a Technical Thesis.
-- **HITL** — Human-in-the-loop is mandatory for all outreach.
-- **Modular injection** — Specialist agents pull from this core for shared rules.
+- **Hardware vetting** — Prioritizes bench-top bring-up and simulation fidelity.
+- **Exclusions** — Mechanical engineering backgrounds unless they include direct RF thermal or packaging expertise.
