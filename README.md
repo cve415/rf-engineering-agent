@@ -21,11 +21,11 @@ The agent uses dual-track logic to connect hands-on RF engineering with commerci
 
 This repo is a specialized **worker node** under the CVE Core Harness.
 
-rf-engineering-agent/
-├── agent-settings.json    # Agent runtime configuration & parameter mappings
-├── data-signals/          # Target companies, hotspots, education signals, vetting rubric
-├── docs/                  # Supplementary engineering reference material & technical documentation
-└── TECH_STACK.md          # Comprehensive tech stack overview and platform integration notes
+- `agent-settings.json`        # Agent runtime configuration & parameter mappings
+- `data-signals/`              # Target companies, hotspots, education signals, vetting rubric
+- `docs/`                      # Supplementary engineering reference material & technical documentation
+- `TECH_STACK.md`              # Comprehensive tech stack overview and platform integration notes
+
 
 ---
 
