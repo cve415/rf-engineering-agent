@@ -8,8 +8,6 @@ by Christopher Velasco
 
 ## Dual-track intelligence
 
-The agent uses dual-track logic to connect hands-on RF engineering with commercial motion:
-
 | Track | Focus |
 |--------|--------|
 | **Engineering deep-scan** |  HFSS, ADS, Virtuoso, and CST fluency, PCB design and layout signals, phased-array and beamforming trade-offs, USPTO and IEEE signals, and tooling-aligned screening questions ready for your hiring team. |
