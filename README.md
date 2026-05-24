@@ -2,7 +2,7 @@
 
 by Christopher Velasco
 
-> **Signal over noise** — In 2026, top RF and hardware talent is buried in generic recruiter spam. This agent cuts through that by doing deep technical work: mapping ecosystems (satellite, 5G mmWave, defense), cross-checking portfolios (simulation stacks, tape-outs, patents), and producing one-to-one **outreach theses** that read like peer review, not blast mail.
+> **Signal over noise** — In 2026, top RF and hardware talent is buried in generic recruiter spam. This agent cuts through that noise by doing deep technical work: mapping ecosystems (satellite, 5G mmWave, defense), cross-checking portfolios (simulation stacks, tape-outs, patents), and producing one-to-one **outreach theses** that read like peer review, not blast mail.
 
 ---
 
