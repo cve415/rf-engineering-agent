@@ -17,7 +17,7 @@ by Christopher Velasco
 
 ## System architecture
 
-This repo is a specialized **worker node** under the CVE Core Harness.
+This agent is a specialized **co-worker node** under the CVE Core Harness.
 
 - `agent-settings.json`        # Agent runtime configuration & parameter mappings
 - `data-signals/`              # Target companies, hotspots, education signals, vetting rubric
