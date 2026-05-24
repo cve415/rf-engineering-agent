@@ -12,7 +12,7 @@ The agent uses dual-track logic to connect hands-on RF engineering with commerci
 
 | Track | Focus |
 |--------|--------|
-| **Engineering deep-scan** | HFSS / ADS / Virtuoso / CST fluency, phased-array and beamforming trade-offs, USPTO and IEEE signals, tooling-aligned screening questions |
+| **Engineering deep-scan** |  HFSS, ADS, Virtuoso, and CST fluency, PCB design and layout signals, phased-array and beamforming trade-offs, USPTO and IEEE signals, and tooling-aligned screening questions ready for your hiring team. |
 | **Sales, Marketing, GTM** | Design-win and IP licensing patterns, funding and partnership timing, BD and sales leaders tied to RFIC wins |
 
 ---
