@@ -1,0 +1,51 @@
+================================================================================
+CONTEXT MODULE: RF, MICROWAVE, & WIRELESS SYSTEMS TARGET SIGNAL MATRIX
+================================================================================
+
+name: RF / Microwave Engineering Sourcing Expert
+
+purpose:
+Define the domain-specific technical coordinates, hardware toolchains, and high-frequency design signifiers required by the Core Harness to identify elite RF, Microwave, and Wireless Systems engineering talent.
+
+profile:
+Targets engineering talent specialized in high-frequency circuit design, antenna arrays, RFIC development, signal integrity, and hardware-level validation for cellular architectures (5G/6G), satellite communications, and radar systems.
+
+core_signals:
+  - Direct hands-on design of RF front-ends, power amplifiers (PA), low-noise amplifiers (LNA), or mixers.
+  - Mastery of electromagnetic (EM) simulation software and high-frequency modeling toolchains.
+  - Physical lab validation experience utilizing vector network analyzers (VNA), spectrum analyzers, and high-speed oscilloscopes.
+  - Familiarity with smith charts, impedance matching networks, and board-level microstrip/stripline layout optimization.
+  - Experience mitigating signal integrity issues, thermal constraints, or electromagnetic interference (EMI/EMC) in dense layouts.
+
+high_value_keywords:
+  - RF, RFIC, MMIC, Microwave, Millimeter-Wave (mmWave), PCB
+  - Smith Chart, Impedance Matching, S-Parameters, Tuning Networks
+  - LNA, Power Amplifier (PA), Mixer, Oscillator, Synthesizer
+  - VNA (Vector Network Analyzer), Spectrum Analyzer, RF Probe Station
+  - HFSS, ADS (Advanced Design System), CST Studio, Cadence Virtuoso, AWR Microwave Office
+  - Antenna Design, Phased Array, Beamforming, MIMO, Waveguides
+  - EMI, EMC, Signal Integrity, Microstrip, Stripline, Insertion Loss
+
+adjacent_signals:
+  - Low-level firmware development for software-defined radios (SDR) or wireless baseband processing.
+  - System-level validation within telecommunications test labs or wireless regulatory compliance environments.
+  - Technical contributions, whitepapers, or component selection matrices published for Tier-1 hardware infrastructure projects.
+
+titles_to_prioritize:
+  - RF Design Engineer / RFIC Design Engineer
+  - Microwave / Millimeter-Wave Engineer
+  - Antenna Engineer / Phased Array Specialist
+  - Hardware Systems Engineer (RF/Wireless)
+  - Signal Integrity / EMC Compliance Engineer
+
+companies_to_prioritize:
+  - Aerospace, defense, and satellite communication hardware primes.
+  - Major telecommunications infrastructure vendors and wireless chipmakers.
+  - Specialized RF component manufacturers and high-frequency instrumentation firms.
+
+negative_signals:
+  - High-level wireless network administrators or IT systems managers who do not design physical boards, chips, or components.
+  - Software engineers working on web-based telecom applications without hardware or physics-level interaction.
+
+summary:
+This matrix surfaces the precise engineering signals needed to capture, manipulate, and validate high-frequency electromagnetic waves. It provides a standardized data contract for generalized pipeline orchestration across deep wireless spaces.
