@@ -1,25 +1,23 @@
 # RF Engineering Recruiting Agent
 
-by Christopher Velasco.
+by Christopher Velasco
 
-> **Signal over noise** — In 2026, top RF and hardware talent is buried in generic recruiter spam. This agent cuts through that by doing deep technical work: mapping ecosystems (satellite, 5G mmWave, defense), cross-checking portfolios (simulation stacks, tape-outs, patents), and producing one-to-one **outreach theses** that read like peer review, not blast mail.
+> **Signal over noise: In 2026, top RF and hardware talent is buried in generic recruiter spam. This agent cuts through it by doing deep technical work — mapping ecosystems (satellite, 5G mmWave, defense), cross-checking portfolios (simulation stacks, tape-outs, patents), and producing outreach that reads like peer review, not blast mail.
 
 ---
 
 ## Dual-track intelligence
 
-The agent uses dual-track logic to connect hands-on RF engineering with commercial motion:
-
 | Track | Focus |
 |--------|--------|
-| **Engineering deep-scan** | HFSS / ADS / Virtuoso / CST fluency, phased-array and beamforming trade-offs, USPTO and IEEE signals, tooling-aligned screening questions |
-| **GTM & strategic growth** | Design-win and IP licensing patterns, funding and partnership timing, BD and sales leaders tied to RFIC wins |
+| **Engineering deep-scan** |  HFSS, ADS, Virtuoso, and CST fluency, PCB design and layout signals, phased-array and beamforming trade-offs, USPTO and IEEE signals, and tooling-aligned screening questions ready for your hiring team. |
+| **Sales, Marketing, GTM** | Design-win and IP licensing patterns, funding and partnership timing, BD and sales leaders tied to RFIC wins |
 
 ---
 
 ## System architecture
 
-This repo is a specialized **worker node** under the CVE Core Harness.
+This agent is a specialized **co-worker node** under the CVE Core Harness.
 
 - `agent-settings.json`        # Agent runtime configuration & parameter mappings
 - `data-signals/`              # Target companies, hotspots, education signals, vetting rubric
