@@ -8,13 +8,7 @@
 
 ## Technical Architecture Overview
 
-| Layer | Current State | Future State (Q2 2026) |
-| :--- | :--- | :--- |
-| **Intelligence** | Hand-researched technical reports | Kimi K2.6 + Multi-Silo Data Feed (GraphQL) |
-| **Methodology** | Markdown-based Human Curation | AI-Augmented Autonomous Reasoning |
-| **Frontend** | HTML5 + Tactical CSS + Vanilla JS | Same (Zero-build / No-framework architecture) |
-| **Deployment** | GitHub Pages (Static) | GitHub Actions CI/CD + Automated Pipeline |
-| **Data Silos** | Manual IEEE/USPTO/GitHub Scans | Live API Integration (GitHub, LinkedIn, ArXiv) |
+
 
 ---
 
